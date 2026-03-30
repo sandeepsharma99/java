@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class printAllDivisior {
+
+    public static void isDivisior(int num) {
+        for(int i = 1; i <= Math.sqrt(num); i++) {
+            if(num % i == 0) {
+                System.out.print(i + " ");
+                
+                if(num / i != i) {
+                    System.out.print(num / i + " ");
+                }
+            }
+        }
+    }
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        isDivisior(num);
+        sc.close();
+    }
+}
