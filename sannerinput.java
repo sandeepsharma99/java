@@ -17,5 +17,7 @@ public class sannerinput{
 
         System.out.println(num+" "+s+" "+f+" "+d+" "+c);
 
+        sc.close();
+
     }
 }
