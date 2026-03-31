@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class allPimeFactor {
 
     public static boolean isPrime(int num){
-        if(num <= 1){
+        if(num <= 1){  // check if a number is less than 1 or not
             return false;
         }
-        for(int i = 2; i <= Math.sqrt(num); i++){
+        for(int i = 2; i <= Math.sqrt(num); i++){  // loop from 2 to square root of numb
             if(num % i == 0){
                 return false;
             }
