@@ -1,3 +1,6 @@
+// AP series
+
+
 import java.util.*;
 
 public class MathProblem2 {
