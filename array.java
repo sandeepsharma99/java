@@ -42,6 +42,7 @@ public class array {
         System.out.print(i+" ");
     }
     int ans = sum_arr(arr);
+    System.out.println();
     System.out.println(ans);
 
     sc.close();
