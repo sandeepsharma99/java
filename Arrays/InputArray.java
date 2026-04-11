@@ -18,10 +18,10 @@ public class InputArray {
 
         // Taking String Input
         
-        String input =  sc.nextLine();
-        String ar[]= input.split(",");
+        String input = sc.nextLine(); // taking input in string
+        String [] ar = input.split(",");  //splitting on the bases of ","
 
-        ArrayList<Integer>part = new ArrayList<>();
+        ArrayList<Integer>part = new ArrayList<>(); // creating dynamic array which store only integer object
         for(String token : ar){
             int num = Integer.parseInt(token);
             part.add(num);
