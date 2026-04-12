@@ -3,7 +3,7 @@ import java.util.*;
 public class InputArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // case -> 1 given n element
+        // case 1 ->  given n element
         // int n = sc.nextInt(); // taking size as an input
         // int[] arr = new int[n]; // declaration
         
