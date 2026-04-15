@@ -173,46 +173,136 @@ public class pattern1 {
         // }
 
         // Pattern 11
+        // int n = 5;
+        // for(int row=1; row<=n; row++){
+            
+        //         for(int col=1; col<=row; col++){
+        //         System.out.print("* ");
+        //         }
+
+        //         for(int col=1; col<=2*(n-row); col++){
+        //         System.out.print("  ");
+        //         }
+
+        //         for(int col=1; col<=row; col++){
+        //         System.out.print("* ");
+        //         }
+            
+        //         System.out.println();
+        //     }
+
+        //     for(int row=1; row<=n; row++){
+        //         for(int col=1; col<=n-row+1; col++){
+        //             System.out.print("* ");
+        //         }
+        //         for(int col=1; col<=(row-1)*2; col++){
+        //             System.out.print("  ");
+        //         }
+        //         for(int col=1; col<=(n-row)+1; col++){
+        //             System.out.print("* ");
+        //         }
+        //         System.out.println();
+        //     }
+
+        // Pattern 12
+            // int n = 5;
+            // for (int row=1; row<=n; row++){
+            //     for(int col=1; col<=row; col++){
+            //         System.out.print(col+" ");
+            //     }
+            //     System.out.println();
+            // }
+
+        // Pattern 13
+        // int n=5;
+        // int count = 1;
+        // for(int row=1; row<=n; row++){
+        //     for(int col=1; col<=row; col++){
+        //         System.out.print(count+" ");
+        //         count++;
+        //     }
+        //     System.out.println();
+        // }
+
+        // Pattern 14
+        // int n = 5;
+        // for(int row=1; row<=n;row++){
+        //     for(int col=1; col<=row; col++){
+        //         int a = col;
+        //         int b = ('A'-1);
+        //         int ans = a+b;
+        //         char finalAns = (char)ans;
+        //         System.out.print(finalAns+" ");
+        //     }
+        //     System.out.println();
+        // }
+        
+        // Pattern 15
+        // int n = 5;
+        // for (int row = 0; row <= n; row++) {
+        //     for(int col =1; col<=row; col++){
+        //         int a = n-col;
+        //         // int b = 'A';
+        //         int ans = a+'A';
+        //         char finalAns = (char)ans;
+        //         System.out.print(finalAns+" ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // Pattern 16
+        // int n= 4;
+        // for(int row=1; row<=n; row++){
+        //     for(int col=1; col<=n-row; col++){
+        //         System.out.print("  ");
+        //     }
+        //     for(int col=1; col<=row; col++){
+        //         System.out.print(col+" ");
+        //     }
+        //     int decRowValue = row-1;
+        //     for(int col=1; col<=row-1; col++){
+        //         System.out.print(decRowValue+" ");
+        //         decRowValue--;
+        //     }
+        //     System.out.println();
+        // }
+
+        // Pattern 17
+        // int n=5;
+        // for(int row=1; row<=n; row++){
+
+        //     for(int col=1;col<=n-row; col++){
+        //         System.out.print("  ");
+        //     }
+
+        //     for(int col=1; col<=2*row-1; col++){
+        //     System.out.print(row+" ");
+        //     }
+        //     System.out.println(); 
+        // }
+
+        // Pattern 18
         int n = 5;
-        for(int row=1; row<=n; row++){
-            
-                for(int col=1; col<=row; col++){
-                System.out.print("* ");
-                }
 
-                for(int col=1; col<=2*(n-row); col++){
+        for(int row = 1; row <= n; row++) {
+            // spaces
+            for(int col = 1; col < n - row; col++) {
                 System.out.print("  ");
-                }
+            }
+            // characters
+            for(int col = 1; col <= row; col++) {
+                int a = col;
+                int b = 'A' - 1;
+                int ans = a + b;
+                char finalAns = (char) ans;
 
-                for(int col=1; col<=row; col++){
-                System.out.print("* ");
-                }
-            
-                
-                
-
-                System.out.println();
+                System.out.print(finalAns + " ");
             }
 
-            for(int row=1; row<=n; row++){
-                for(int col=1; col<=n-row+1; col++){
-                    System.out.print("* ");
-                }
-                for(int col=1; col<=(row-1)*2; col++){
-                    System.out.print("  ");
-                }
-                for(int col=1; col<=(n-row)+1; col++){
-                    System.out.print("* ");
-                }
-                System.out.println();
-            }
+            System.out.println();
+        }
 
-
-
-
-
-
-            
-           
-        }  
+    } 
 }
+
+// comment 
