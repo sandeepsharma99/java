@@ -306,4 +306,5 @@ public class pattern1 {
 }
 
 // comment 
-// comment
+// comment  
+// comments
