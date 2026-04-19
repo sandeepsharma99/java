@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Searching {
     public static int LinearSearch(int[] arr, int find) {
-        for(int i=0; i<arr.length;i++){
+        for(int i=0; i<arr.length-1;i++){
             if(arr[i]==find){
                 return i;
             }
